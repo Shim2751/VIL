@@ -1,4 +1,4 @@
-# Carla_Sensor by python
+# Carla_Sensor(python)
 
 Guide : https://carla.readthedocs.io/en/latest/core_sensors/
 
