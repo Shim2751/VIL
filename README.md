@@ -1,4 +1,4 @@
-# VIL_Sensor
+# Carla_Sensor
 
 Guide : https://carla.readthedocs.io/en/latest/core_sensors/
 
