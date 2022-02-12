@@ -64,6 +64,8 @@ Add/Import -> Import new asset
 2.
 3.
 4. Save하고 종료
+5. skelton에 들어가서 save하고 종료
+
 ### 4.Create the Animation Blueprint.
 
 ### 5.Configure the Animation Blueprint.
