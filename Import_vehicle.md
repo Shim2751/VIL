@@ -45,8 +45,42 @@ https://www.youtube.com/watch?v=laAs3lefrKY&t=24s
 ### 5. Export
 (1) file->Export->fbx
 
-(2) Setting을 다음과 같이 한다.
+(2) Setting을 다음과 같이 한다. 이름은 SM_Ioniq.fbx
 
 ![8](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/setting.png)
 
 ## 2. Import and configure the vehicle
+### 1.Create the vehicle folder
+Create a new folder named Ioniq in Content/Carla/Static/Vehicles/4Wheeled.
+### 2.Import fbx file
+Add/Import -> Import new asset
+설정은 다음과 같다.
+* Import Content Type: Geometry and Skinning Weights.
+* Normal Import Method: Import Normals.
+* Material Import Method: Do not create materials. 
+* Uncheck Import Textures
+### 3. Set the physical asset mesh.
+1. SM_Ioniq_PhysicsAssets을 연다.
+2.
+3.
+4. Save하고 종료
+### 4.Create the Animation Blueprint.
+
+### 5.Configure the Animation Blueprint.
+
+1. 다른 차의 Animation을 실행-> 드래그+ctrl+V해서 복사해온다.
+2. Componet To Local과 Output Pose연결
+3. Compile & Save
+
+### 6. Prepare the vehicle and wheel blueprints.
+
+### 7. Configure the wheel blueprints.
+* collision Mesh: Wheel_shape
+* Shape Radius: 67 
+* Shape Width: 21
+* Tire Config: CommonTireConfig
+* (FW) Uncheck Affeted by Handlebrake (RW) Check Affeted by Handlebrake
+* (FW) Steer Angle: 70 (RW) Steer Angle: 0 
+Compile & Save
+### 8. Configure vehicle blueprint.
+### 9. Add the vehicle to the Blueprint Library.
