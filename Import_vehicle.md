@@ -73,7 +73,7 @@ Add/Import -> Import new asset
 
 ![10](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/Physics_wheel.png)
 
-4. Root와 바퀴 모두 선택하고 Simulation Generate를 check
+4. Root와 바퀴 모두 선택하고 ```Simulation Generates Hit Event```를 check
 
 ![11](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/Physics_sim.png) 
 
