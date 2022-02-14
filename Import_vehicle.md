@@ -187,7 +187,7 @@ Create a new folder named ```HundaiIoniq``` in ```Content/Carla/Static/Vehicles/
 
 1. Launch CARLA, open a terminal in PythonAPI/examples and run the following command:
 
-```python manual_control.py --filter <model_name>```
+```python manual_control.py --filter ioniq```
 ![21](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/final.png)
 
 #### 11. (Optional)Materials
