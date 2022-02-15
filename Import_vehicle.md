@@ -23,7 +23,7 @@ Unreal Engine의 visual scripting system인 Blueprint (블루프린트)는 언�
 
 * blender를 사용했습니다. 기본 이동 키:(1)회전: 마우스 휠, (2)이동: shift+휠
 
-bone: 바퀴가 좌 우로 움직일 수 있게 해주는 것이라 생각하면 된다.
+bone: 바퀴가 좌 우로 움직일 수 있게 해주는 관절이라 생각하면 된다.
 
 mesh: 그물망 형태의 도형. 여기선 자동차를 이루는 부품들이라 생각하면 된다.
 
