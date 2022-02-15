@@ -196,6 +196,20 @@ Create a new folder named ```HundaiIoniq``` in ```Content/Carla/Static/Vehicles/
 
 ![22](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/Materials.png)
 
+#### 12. Lights
+1. 아이오닉 차에 맞춰서 구현하기는 힘들기 때문에 AudiTT에 BP_AudiTT를 열어서 하나하나 복사해주자(한번에 하면 위치가 이상해짐)
+
+![23](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/light.png)
+
+2. 아래 집 모양 파일도 복사해주어야 하는데 ```Content/Carla/Static/Vehicles/4Wheeled/AudiTT```에 Material과 glass 폴더에서 light와 관련된 것을 복사해 HundaiIoniq 폴더에 넣고 Ioniq에 맞춰서 이름을 바꾸어 주자.
+
+3. 복사한 집 모양 파일에서 메쉬와 텍스쳐를 복사해 준 것으로 설정해준다. 
+
+4. 결과
+
+![24](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/final_light.png)
+![25](https://github.com/Shim2751/VIL_Sensor.github.io/blob/main/img/final_light1.png)
+
 #### 참고 사이트
 
 https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/
