@@ -23,4 +23,5 @@ roslaunch carla_spawn_objects carla_spawn_objects.launch
         "spawn_point": {"x": 0.0, "y": 0.0, "z": 0.0, "roll": 0.0, "pitch": 0.0, "yaw": 0.0},
         <ADDITIONAL-SENSOR-ATTRIBUTES>
         }
+}
 ```
